@@ -1,7 +1,8 @@
 import { create } from "zustand";
 // import {persist,devtools} from "zustand/middleware"
 
-const domain = "http://localhost:3004";
+// const domain = "http://localhost:3004";
+const domain = "https://challenge-8-backend.vercel.app";
 
 interface BlogState {
   blogs: [];

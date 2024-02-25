@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
-const domain = "http://localhost:3004";
+// const domain = "http://localhost:3004";
+const domain = "https://challenge-8-backend.vercel.app";
 
 const FakeNewsStore = (set) => ({
   fakeNews: [],
