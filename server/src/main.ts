@@ -11,6 +11,7 @@ async function bootstrap() {
     origin: [
       'https://week-7-8-blogia-client.vercel.app',
       'https://week-7-blogia-admin.vercel.app',
+      'https://challenge-8-frontend.vercel.app'
     ], // or specify your frontend URL(s) here
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   };
